@@ -84,9 +84,8 @@ backend backend_example_local
     option http-server-close
     server server1 127.0.0.1:7777 weight 2 check
     server server2 127.0.0.1:8888 weight 3 check
-
-![alt text](https://github.com/Daark46/-/blob/main/2.png)
     server server3 127.0.0.1:9999 weight 4 check
 
 ```
 
+![alt text](https://github.com/Daark46/-/blob/main/2.png)
