@@ -52,6 +52,8 @@ backend servers
 
 ```
 
+![alt text](https://github.com/Daark46/-/blob/main/1.png)
+
 ### Задание 2
 Запустите три simple python сервера на своей виртуальной машине на разных портах
 Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
@@ -82,6 +84,8 @@ backend backend_example_local
     option http-server-close
     server server1 127.0.0.1:7777 weight 2 check
     server server2 127.0.0.1:8888 weight 3 check
+
+![alt text](https://github.com/Daark46/-/blob/main/2.png)
     server server3 127.0.0.1:9999 weight 4 check
 
 ```
